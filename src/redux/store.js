@@ -1,5 +1,5 @@
 import dilogsReducer from "./dialogs-reducer";
-import profileReducer from "./propfile-reducer";
+import profileReducer from "./profile-reducer";
 import sidebarReducer from "./sidebar-reducer ";
 
 
