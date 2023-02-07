@@ -53,5 +53,5 @@ let store = {
 
 }
 
-window.state = store;
+window.store = store;
 export default store;

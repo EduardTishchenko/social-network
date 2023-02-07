@@ -1,5 +1,3 @@
-
-
 const FOLLOW = 'FOLLOW';
 const UNFOLLOW = 'UNFOLLOW ';
 const SETUSERS = 'SETUSERS';
@@ -8,11 +6,12 @@ const TOTAL_USERS_COUNT = 'TOTAL_USERS_COUNT';
 const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING'
 
 let initialState = {
-    users:   [ ],
-    pageSize: 2,
-    totalUsersCount: 1,
+    users:[],
+    pageSize: 10,
+    totalUsersCount: 0,
     currentPage: 1,
-    isFetching:true 
+    isFetching:true,
+    
 
 };
        

@@ -4,7 +4,7 @@ import preloader from '../../asseds/images/preloader.png';
 let Preloader = (props) => {
 
      return <div>
-         <img src={preloader} />
+         <img src={props.preloader} />
 
     </div>
 

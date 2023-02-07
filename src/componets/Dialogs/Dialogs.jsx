@@ -1,5 +1,4 @@
 import React from 'react';
-import { apdateNewMessageBodyCreator, sendMessageCreator } from '../../redux/dialogs-reducer';
 import classes from './Dialogs.module.css';
 import DialogsItem from './DialogsItems/DialogsItem';
 import Message from './Message/Message';
